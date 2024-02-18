@@ -1,214 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Bookmark</title>
-</head>
-<body>
-	<header>
-		<div>
-			<a href="/">
-				<img
-				src="./images/logo.svg"
-				width="149"
-				height="25"
-				alt="This is Bookmark company's logo images"
-				/>
-			</a>
-			<div>
-				<nav>
-					<ol>
-						<li><a href="#">FEATURES</a></li>
-						<li><a href="#">PRICING</a></li>
-						<li><a href="#">CONTACT</a></li>
-					</ol>
-				</nav>
-				<a href="#">LOGIN</a>
-			</div>
-		</div>
-	</header>
-	<main>
-		<section>
-			<div>
-				<div>
-					<h1>A Simple BookmarkManager</h1>
-					<p>
-						A clean and simple interface to organize your favourite websites.
-						Open a new browser tab and see your sites load instantly. Try it
-						for free.
-					</p>
-					<ul>
-						<li><a href="#">Get it on Chrome</a></li>
-						<li><a href="#">Get it on Firefox</a></li>
-					</ul>
-				</div>
-				<img
-				src="./images/bookmarkmainimage.svg"
-				width="710"
-				height="485"
-				alt="This is bookmark main page image. As you can see in this image you can book your produtcs"
-				/>
-			</div>
-		</section>
-		<section>
-			<div>
-				<h2>Features</h2>
-				<p>
-					Our aim is to make it quick and easy for you to access your
-					favourite websites. Your bookmarks sync between your devices so you
-					can access them on the go.
-				</p>
-			</div>
-			<ul>
-				<li><a href="#">Simple Bookmarking</a></li>
-				<li><a href="#">Speedy Searching</a></li>
-				<li><a href="#">Easy Sharing</a></li>
-			</ul>
-		</section>
-		<section>
-			<div>
-				<img
-				src="./images/onecllick.svg"
-				width="705"
-				height="435"
-				alt="This is Bookmark company one click image"
-				loading="lazy"
-				/>
-				<div>
-					<h2>Bookmark in one click</h2>
-					<p>
-						Organize your bookmarks however you like. Our simple drag-and-drop
-						interface gives you complete control over how you manage your
-						favourite sites.
-					</p>
-					<a href="#">More Info</a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookmark</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<!-- Header start -->
+		<header class="site-header">
+			<div class="header-wrapper">
+				<a class="logo-link" href="/">
+					<img
+						class="logo-pic"
+						src="./images/logo.svg"
+						width="149"
+						height="25"
+						alt="This is Bookmark company's logo images"
+					/>
+				</a>
+				<div class="nav-wrapper">
+					<nav class="site-navbar">
+						<ol class="header-list">
+							<li class="header-item">
+								<a class="header-item-link" href="#">FEATURES</a>
+							</li>
+							<li class="header-item">
+								<a class="header-item-link" href="#">PRICING</a>
+							</li>
+							<li class="header-item">
+								<a class="header-item-link" href="#">CONTACT</a>
+							</li>
+						</ol>
+					</nav>
+					<a class="header-login-link" href="#">LOGIN</a>
 				</div>
 			</div>
-		</section>
-		<section>
-			<div>
-				<h2>Download the extension</h2>
-				<p>
-					We’ve got more browsers in the pipeline. Please do let us know if
-					you’ve got a favourite you’d like us to prioritize.
-				</p>
-			</div>
-			<ul>
-				<li>
+		</header>
+		<!-- Header finish -->
+		<!-- Main begin -->
+		<main class="site-main">
+			<!-- Hero section start -->
+			<section class="hero">
+				<div class="hero-wrapper">
+					<div class="hero-inner-wrapper">
+						<h1 class="hero-title">A Simple BookmarkManager</h1>
+						<p class="hero-desc">
+							A clean and simple interface to organize your favourite websites.
+							Open a new browser tab and see your sites load instantly. Try it
+							for free.
+						</p>
+						<ul class="hero-list">
+							<li class="hero-item">
+								<a class="hero-item-list chrome" href="#">Get it on Chrome</a>
+							</li>
+							<li class="hero-item">
+								<a class="hero-item-list firefox" href="#">Get it on Firefox</a>
+							</li>
+						</ul>
+					</div>
 					<img
-					src="./images/chrome.svg"
-					width="102"
-					height="100"
-					alt="This is Chrome company logo image"
-					loading="lazy"
+						class="hero-main-pic"
+						src="./images/bookmarkmainimage.svg"
+						width="710"
+						height="485"
+						alt="This is bookmark main page image. As you can see in this image you can book your produtcs"
 					/>
-					<h3>Add to Chrome</h3>
-					<p>Minimum version 62</p>
-					<a href="#">Add & Install Extension</a>
-				</li>
-				<li>
-					<img
-					src="./images/fireworks.svg"
-					width="102"
-					height="100"
-					alt="This is Firefox company logo image"
-					loading="lazy"
-					/>
-					<h3>Add to Firefox</h3>
-					<p>Minimum version 55</p>
-					<a href="#">Add & Install Extension</a>
-				</li>
-				<li>
-					<img
-					src="./images/opera.svg"
-					width="102"
-					height="100"
-					alt="This is Opera company's logo image"
-					loading="lazy"
-					/>
-					<h3>Add to Opera</h3>
-					<p>Minimum version 46</p>
-					<a href="#">Add & Install Extension</a>
-				</li>
-			</ul>
-		</section>
-		<section>
-			<div>
-				<div>
-					<h2>Frequently Asked Questions</h2>
-					<p>
-						Here are some of our FAQs. If you have any other questions you’d
-						like answered please feel free to email us.
+				</div>
+			</section>
+			<!-- Hero section finish -->
+			<!-- Features section start -->
+			<section class="features">
+				<div class="features-wrapper">
+					<h2 class="features-title">Features</h2>
+					<p class="features-desc">
+						Our aim is to make it quick and easy for you to access your
+						favourite websites. Your bookmarks sync between your devices so you
+						can access them on the go.
 					</p>
 				</div>
-				<div>
-					<ol>
-						<li>
-							<p>What is Bookmark?</p>
-						</li>
-						<li>
-							<p>How can I request a new browser?</p>
-						</li>
-						<li>
-							<p>Is there a mobile app?</p>
-						</li>
-						<li>
-							<p>What about other Chromium browsers?</p>
-						</li>
-					</ol>
-					<a href="#">More info</a>
-				</div>
-			</div>
-		</section>
-	</main>
-	<article>
-		<div>
-			<strong> 35,000+ ALREADY JOINED </strong>
-			<h2>Stay up-to-date with what we’re doing</h2>
-		</div>
-	</article>
-	<footer style="background-color: #242a45">
-		<div>
-			<div>
-				<img
-				src="./images/logo-white.svg"
-				width="148"
-				height="25"
-				alt="This is Bookmark company's logo image and it's color white"
-				loading="lazy"
-				/>
-				<ol>
-					<li><a href="#">FEATURES</a></li>
-					<li><a href="#">PRICING</a></li>
-					<li><a href="#">CONTACT</a></li>
-				</ol>
-			</div>
-			<ul>
-				<li>
-					<a href="#">
-						<img
-						src="./images/facebook.svg"
-						width="24"
-						height="24"
-						alt="This is facebook company's logo image"
+				<ul class="features-list">
+					<li class="features-item">
+						<a class="features-item-link" href="#">Simple Bookmarking</a>
+					</li>
+					<li class="features-item">
+						<a class="features-item-link" href="#">Speedy Searching</a>
+					</li>
+					<li class="features-item">
+						<a class="features-item-link" href="#">Easy Sharing</a>
+					</li>
+				</ul>
+			</section>
+			<!-- Features section finish -->
+			<!-- Oneclick section start -->
+			<section class="oneclick">
+				<div class="oneclick-wrapper">
+					<img
+						class="oneclick-pic"
+						src="./images/onecllick.svg"
+						width="705"
+						height="435"
+						alt="This is Bookmark company one click image"
 						loading="lazy"
-						/>
-					</a>
-				</li>
-				<li>
-					<a href="#">
+					/>
+					<div class="oneclick-inner-wrapper">
+						<h2 class="oneclick-title">Bookmark in one click</h2>
+						<p class="oneclick-desc">
+							Organize your bookmarks however you like. Our simple drag-and-drop
+							interface gives you complete control over how you manage your
+							favourite sites.
+						</p>
+						<a class="oneclick-link" href="#">More Info</a>
+					</div>
+				</div>
+			</section>
+			<!-- Oneclick section finish -->
+			<!-- Download section start -->
+			<section class="download">
+				<div class="download-wrapper">
+					<h2 class="download-title">Download the extension</h2>
+					<p class="download-desc">
+						We’ve got more browsers in the pipeline. Please do let us know if
+						you’ve got a favourite you’d like us to prioritize.
+					</p>
+				</div>
+				<ul class="download-list">
+					<li class="download-item">
 						<img
-						src="./images/twitter.svg"
-						width="24"
-						height="24"
-						alt="This is twitter company logo image"
-						loading="lazy"
+							class="download-item-pic"
+							src="./images/chrome.svg"
+							width="102"
+							height="100"
+							alt="This is Chrome company logo image"
+							loading="lazy"
 						/>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-</body>
+						<h3 class="download-item-title">Add to Chrome</h3>
+						<p class="download-item-desc">Minimum version 62</p>
+						<a class="download-item-link" href="#">Add & Install Extension</a>
+					</li>
+					<li class="download-item">
+						<img
+							class="download-item-pic"
+							src="./images/fireworks.svg"
+							width="102"
+							height="100"
+							alt="This is Firefox company logo image"
+							loading="lazy"
+						/>
+						<h3 class="download-item-title">Add to Firefox</h3>
+						<p class="download-item-desc">Minimum version 55</p>
+						<a class="download-item-link" href="#"> Add & Install Extension </a>
+					</li>
+					<li class="download-item">
+						<img
+							class="download-item-pic"
+							src="./images/opera.svg"
+							width="102"
+							height="100"
+							alt="This is Opera company's logo image"
+							loading="lazy"
+						/>
+						<h3 class="download-item-title">Add to Opera</h3>
+						<p class="download-item-desc">Minimum version 46</p>
+						<a class="download-item-link" href="#">Add & Install Extension</a>
+					</li>
+				</ul>
+			</section>
+			<!-- Download section finish -->
+			<!-- FAQ section start -->
+			<section class="faq">
+				<div class="faq-wrapper">
+					<div class="faq-inner-wrapper">
+						<h2 class="faq-title">Frequently Asked Questions</h2>
+						<p class="faq-desc">
+							Here are some of our FAQs. If you have any other questions you’d
+							like answered please feel free to email us.
+						</p>
+					</div>
+					<div class="faq-questions-wrapper">
+						<ol class="faq-list">
+							<li class="faq-item">
+								<p class="faq-item-desc">What is Bookmark?</p>
+							</li>
+							<li class="faq-item">
+								<p class="faq-item-desc">How can I request a new browser?</p>
+							</li>
+							<li class="faq-item">
+								<p class="faq-item-desc">Is there a mobile app?</p>
+							</li>
+							<li class="faq-item">
+								<p class="faq-item-desc">What about other Chromium browsers?</p>
+							</li>
+						</ol>
+						<a class="faq-link" href="#">More info</a>
+					</div>
+				</div>
+			</section>
+			<!-- FAQ section finish -->
+		</main>
+		<!-- Main end -->
+		<!-- Article start -->
+		<article class="site-article">
+			<div class="article-wrapper">
+				<strong class="article-followers-text"> 35,000+ ALREADY JOINED </strong>
+				<h2 class="article-title">Stay up-to-date with what we’re doing</h2>
+			</div>
+		</article>
+		<!-- Article finish -->
+		<!-- Footer start -->
+		<footer class="site-footer">
+			<div class="footer-wrapper">
+				<div class="footer-inner-wrapper">
+					<img
+						class="footer-logo-pic"
+						src="./images/logo-white.svg"
+						width="148"
+						height="25"
+						alt="This is Bookmark company's logo image and it's color white"
+						loading="lazy"
+					/>
+					<ol class="footer-list">
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">FEATURES</a>
+						</li>
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">PRICING</a>
+						</li>
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">CONTACT</a>
+						</li>
+					</ol>
+				</div>
+				<ul class="footer-social-list">
+					<li class="footer-social-item">
+						<a class="footer-social-item-link" href="#">
+							<img
+								src="./images/facebook.svg"
+								width="24"
+								height="24"
+								alt="This is facebook company's logo image"
+								loading="lazy"
+							/>
+						</a>
+					</li>
+					<li class="footer-social-item">
+						<a class="footer-social-item-link" href="#">
+							<img
+								src="./images/twitter.svg"
+								width="24"
+								height="24"
+								alt="This is twitter company logo image"
+								loading="lazy"
+							/>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<!-- Footer finish -->
+	</body>
 </html>

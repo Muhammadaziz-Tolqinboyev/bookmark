@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.logo-link {
+	text-decoration-line: none;
+}
+
+.header-list {
+	list-style-type: none;
+}
+
+.header-item-link {
+	font-size: 13px;
+	color: #242a45;
+	text-decoration-line: none;
+}
+
+.header-login-link {
+	font-size: 13px;
+	color: #fff;
+	background-color: #fa5959;
+	text-decoration-line: none;
+}
+
+.hero-title {
+	color: #242a45;
+	font-size: 48px;
+}
+
+.hero-desc {
+	color: #242a4580;
+	font-size: 18px;
+}
+
+.hero-list {
+	list-style-type: none;
+}
+
+.hero-item-list {
+	font-size: 14px;
+	text-decoration-line: none;
+}
+
+.chrome {
+	color: #fff;
+	background-color: #5267df;
+}
+
+.firefox {
+	color: #242a45bf;
+	background-color: #f7f7f7;
+}
+
+.features-title {
+	font-size: 32px;
+	color: #242a45;
+	text-align: center;
+}
+
+.features-desc {
+	font-size: 18px;
+	color: #242a4580;
+	text-align: center;
+}
+
+.features-list {
+	list-style-type: none;
+}
+
+.features-item-link {
+	font-size: 16px;
+	color: #242a45;
+	text-decoration-line: none;
+}
+
+.oneclick-title {
+	font-size: 32px;
+	color: #242a45;
+}
+
+.oneclick-desc {
+	font-size: 18px;
+	color: #242a4580;
+}
+
+.oneclick-link {
+	font-size: 14px;
+	color: #fff;
+	background-color: #5267df;
+	text-decoration-line: none;
+}
+
+.download-title {
+	font-size: 32px;
+	color: #242a45;
+	text-align: center;
+}
+
+.download-desc {
+	font-size: 18px;
+	color: #242a4580;
+	text-align: center;
+}
+
+.download-list {
+	list-style-type: none;
+}
+
+.download-item-title {
+	font-size: 20px;
+	color: #242a45;
+}
+
+.download-item-desc {
+	font-size: 15px;
+	color: #242a45;
+}
+
+.download-item-link {
+	font-size: 14px;
+	color: #fff;
+	background-color: #5267df;
+	text-decoration-line: none;
+}
+
+.faq-title {
+	font-size: 32px;
+	color: #242a45;
+	text-align: center;
+}
+
+.faq-desc {
+	font-size: 18px;
+	color: #242a45;
+	text-align: center;
+}
+
+.faq-list {
+	list-style-type: none;
+}
+
+.faq-item-desc {
+	font-size: 18px;
+	color: #242a45;
+	text-align: center;
+}
+
+.faq-link {
+	font-size: 14px;
+	color: #fff;
+	background-color: #5267df;
+	text-decoration-line: none;
+}
+
+.site-article {
+	background-color: #5267df;
+}
+
+.article-followers-text {
+	font-size: 13px;
+	color: #FFF;
+}
+
+.article-title {
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+}
+
+.site-footer {
+	background-color: #242a45;
+}
+
+.footer-list {
+	list-style-type: none;
+}
+
+.footer-item-link {
+	font-size: 13px;
+	color: #fff;
+	text-decoration-line: none;
+}
+
+.footer-social-list {
+	list-style-type: none;
+}
+
+.footer-social-item-link {
+	text-decoration-line: none;
+}
+
