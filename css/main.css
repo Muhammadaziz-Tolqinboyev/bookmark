@@ -4,45 +4,116 @@
 
 body {
 	margin: 0;
+	font-family: "Rubik", "Arial", sans-serif;
+}
+
+img {
+	display: block;
+	height: auto;
+}
+
+.container {
+	width: 1240px;
+	margin-inline: auto;
+	padding-inline: 20px;
+}
+
+.unstyled-list {
+	margin-block: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.site-header {
+	padding-block: 48px 6px;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo-link {
 	text-decoration-line: none;
 }
 
+.nav-wrapper {
+	display: flex;
+	align-items: center;
+}
+
 .header-list {
-	list-style-type: none;
+	display: flex;
+}
+
+.header-item {
+	margin-right: 48px;
 }
 
 .header-item-link {
 	font-size: 13px;
 	color: #242a45;
 	text-decoration-line: none;
+	line-height: 17px; 
+	letter-spacing: 1.5px;
 }
 
 .header-login-link {
+	display: inline-block;
+	padding: 12px 33px;
 	font-size: 13px;
+	font-weight: 500;
 	color: #fff;
 	background-color: #fa5959;
+	border-radius: 5px;
+	box-shadow: 0px 8px 8px -4px #495dcf33;
 	text-decoration-line: none;
 }
 
+.hero {
+	padding-block: 111px 70px;
+}
+
+.hero-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero-inner-wrapper {
+	width: 540px;
+}
+
 .hero-title {
-	color: #242a45;
+	margin-block: 0 24px;
 	font-size: 48px;
+	font-weight: 500;
+	color: #242a45;
 }
 
 .hero-desc {
-	color: #242a4580;
+	margin-block: 0 32px;
 	font-size: 18px;
+	font-weight: 500;
+	color: #242a4580;
 }
 
 .hero-list {
-	list-style-type: none;
+	display: flex;
 }
 
-.hero-item-list {
+.hero-item:not(:last-child) {
+	margin-right: 16px;
+}
+
+.hero-item-link {
+	display: inline-block;
+	padding: 10px 24px;
 	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 0px 8px 8px -4px #495dcf33;
 	text-decoration-line: none;
 }
 
@@ -56,21 +127,35 @@ body {
 	background-color: #f7f7f7;
 }
 
+.features {
+	padding-block: 10px 62px;
+}
+
+.features-wrapper {
+	width: 540px;
+	margin-inline: auto;
+}
+
 .features-title {
+	margin-block: 0 16px;
 	font-size: 32px;
+	font-weight: 500;
 	color: #242a45;
 	text-align: center;
 }
 
 .features-desc {
+	margin-block: 0 72px;
 	font-size: 18px;
 	color: #242a4580;
 	text-align: center;
 }
 
 .features-list {
-	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
 }
+
 
 .features-item-link {
 	font-size: 16px;
@@ -78,106 +163,241 @@ body {
 	text-decoration-line: none;
 }
 
+.oneclick {
+	padding-block: 10px 129px;
+}
+
+.oneclick-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.oneclick-inner-wrapper {
+	width: 445px;
+}
+
 .oneclick-title {
+	margin-block: 0 16px;
 	font-size: 32px;
+	font-weight: 500;
 	color: #242a45;
 }
 
 .oneclick-desc {
+	margin-block: 0 32px;
 	font-size: 18px;
 	color: #242a4580;
 }
 
 .oneclick-link {
+	display: inline-block;
+	padding: 10px 24px;
 	font-size: 14px;
+	font-weight: 500;
 	color: #fff;
 	background-color: #5267df;
+	border-radius: 5px;
+	box-shadow: 0px 8px 8px -4px #495dcf33;
 	text-decoration-line: none;
 }
 
+.download {
+	padding-block: 20px 129px;
+}
+
+.download-wrapper {
+	width: 540px;
+	margin-inline: auto;
+}
+
 .download-title {
+	margin-block: 0 16px;
 	font-size: 32px;
+	font-weight: 500;
 	color: #242a45;
 	text-align: center;
 }
 
 .download-desc {
+	margin-block: 0 48px;
 	font-size: 18px;
 	color: #242a4580;
 	text-align: center;
 }
 
 .download-list {
-	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.download-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 280px;
+	padding: 49px 24px 24px;
+	border-radius: 15px;
+	box-shadow: 0px 10px 20px -5px #495dcf33;
+}
+
+.download-item:nth-child(2) {
+	margin-block-start: 40px;
+}
+
+.download-item:nth-child(3) {
+	margin-block-start: 80px;
+}
+
+.download-item-pic {
+	margin-block-end: 32px;
 }
 
 .download-item-title {
+	margin-block: 0 6px;
 	font-size: 20px;
+	font-weight: 500;
 	color: #242a45;
 }
 
 .download-item-desc {
+	margin-block: 0 60px;
 	font-size: 15px;
 	color: #242a45;
 }
 
 .download-item-link {
+	display: inline-block;
+	padding: 10px 35px;
 	font-size: 14px;
+	font-weight: 500;
 	color: #fff;
 	background-color: #5267df;
+	border-radius: 5px;
+	box-shadow: 0px 8px 8px -4px #495dcf33;
 	text-decoration-line: none;
 }
 
+.faq {
+	padding-block: 20px 150px;
+}
+
+.faq-inner-wrapper {
+	width: 540px;
+	margin-inline: auto;
+}
+
 .faq-title {
+	margin-block: 0 16px;
 	font-size: 32px;
+	font-weight: 500;
 	color: #242a45;
 	text-align: center;
 }
 
 .faq-desc {
+	margin-block: 0 56px;
 	font-size: 18px;
-	color: #242a45;
+	color: #242a4580;
 	text-align: center;
 }
 
-.faq-list {
-	list-style-type: none;
+.faq-questions-wrapper {
+	width: 540px;
+	margin-inline: auto;
+}
+
+.faq-item {
+	border-bottom: 1px solid #242a4526;
+}
+
+.faq-item:first-child {
+	border-top: 1px solid #242a4526;
+}
+
+.faq-item:last-child {
+	margin-bottom: 54px;
 }
 
 .faq-item-desc {
+	margin-block: 0;
+	padding-block: 19px;
 	font-size: 18px;
+	font-weight: 400;
 	color: #242a45;
-	text-align: center;
 }
 
 .faq-link {
+	display: block;
+	width: 114px;
+	margin-inline: auto;
+	padding-block: 10px;
 	font-size: 14px;
 	color: #fff;
 	background-color: #5267df;
+	border-radius: 5px;
+	box-shadow: 0px 8px 8px -4px #495dcf33;
+	text-align: center;
 	text-decoration-line: none;
 }
 
 .site-article {
+	padding-block: 58px 74px;
 	background-color: #5267df;
 }
 
+.article-wrapper {
+	width: 410px;
+	margin-inline: auto;
+}
+
 .article-followers-text {
+	display: block;
+	margin-block-end: 24px;
 	font-size: 13px;
-	color: #FFF;
+	color: #fff;
+	text-align: center;
 }
 
 .article-title {
+	margin-block: 0 36px;
 	font-size: 32px;
+	font-weight: 500;
 	color: #fff;
 	text-align: center;
 }
 
 .site-footer {
+	padding-block: 32px;
 	background-color: #242a45;
 }
 
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-inner-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.footer-logo-link {
+	text-decoration-line: none;
+}
+
+.footer-logo-pic {
+	margin-right: 66px;
+}
+
 .footer-list {
-	list-style-type: none;
+	display: flex;
+}
+
+.footer-item:not(:last-child) {
+	margin-right: 48px;
 }
 
 .footer-item-link {
@@ -187,8 +407,13 @@ body {
 }
 
 .footer-social-list {
-	list-style-type: none;
+	display: flex;
+	align-items: center;
 }
+
+.footer-social-item:not(:last-child) {
+	margin-right: 40px;
+} 
 
 .footer-social-item-link {
 	text-decoration-line: none;
